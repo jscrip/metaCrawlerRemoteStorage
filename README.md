@@ -15,4 +15,4 @@ This project has two parts:
 1. Copy and paste the contents of this file into the console view of the browser.
 2. Press Enter
 
-The script will start on the injected page and crawl until it runs out of pages, or until the crawl limit has been reached. There is a semi-random delay timer that fluctuates the wait time between requests, lessening the chance of exceeding rate limits and/or getting robo-banned.
+The script will crawl from the injected page until it runs out of pages within the same domain, or until the crawl limit has been reached. There is a semi-random delay timer that fluctuates the wait time between requests, lessening the chance of exceeding rate limits and/or getting robo-banned.
